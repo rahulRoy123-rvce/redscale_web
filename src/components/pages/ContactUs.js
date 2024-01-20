@@ -13,8 +13,8 @@ const ContactPage = () => {
   const form = useRef();
   const sendMail = async (e) => {
     e.preventDefault();
-    const userId = "SjOJfdMi2HM4StNPq";
-    const serviceId = "service_uvdtfna";
+    const userId = "h-B19s-FImd5w300r";//public key of the account
+    const serviceId = "service_2odsgu8";
     const templateId = "template_09fn0r4";
     const accessToken = "2bkpCcfDElw20Exl_nEzd";
 

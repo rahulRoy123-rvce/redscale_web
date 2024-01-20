@@ -17,20 +17,20 @@ function Footer() {
               <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400 cursor-pointer">
                 <Link to="/tou">Terms of Use</Link>
               </li>
-              <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400 cursor-pointer whitespace-nowrap">
+              {/* <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400 cursor-pointer whitespace-nowrap">
                 <Link to="/CorporateInfo">Corporate Information</Link>
-              </li>
+              </li> */}
             </ul>
             <ul
               className="flex flex-col flex-nowrap
              w-full p-0 font-medium text-slate-700 list-none text-center"
             >
-              <li className="inline-block px-3 py-2 mt-5 font-bold tracking-wide text-white uppercase md:mt-0">
+              {/* <li className="inline-block px-3 py-2 mt-5 font-bold tracking-wide text-white uppercase md:mt-0">
                 Need Help?
-              </li>
-              <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400 cursor-pointer">
+              </li> */}
+              {/* <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400 cursor-pointer">
                 <Link to="/Return_Exchange">Returns & Exchanges</Link>
-              </li>
+              </li> */}
               <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400 cursor-pointer">
                 <Link to="/faqs">FAQs</Link>
               </li>
@@ -60,13 +60,13 @@ function Footer() {
                 <span>Bangalore, Karnataka</span>
               </li>
               <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400">
-                <a href="mailto:contact@richfeyn.com"> contact@richfeyn.com</a>
+                <a href="mailto:contact@richfeyn.com"> contact@8210071667</a>
               </li>
               <li className="inline-block px-3 py-2 text-gray-300 text-sm no-underline hover:text-gray-400">
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://wa.me/919310586024/?text=Hi, I need assistance to setup integration."
+                  href="https://wa.me/918210071667/?text=Hi, I need a website for my business."
                 >
                   WhatsApp Us
                 </a>

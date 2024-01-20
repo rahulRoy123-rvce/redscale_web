@@ -101,17 +101,17 @@ function Header() {
         </span>
       ),
     },
-    {
-      key: "5",
-      label: (
-        <Link
-          to="/pricing"
-          className="ml-4 text-white hover:text-gray-300 cursor-pointer"
-        >
-          Pricing
-        </Link>
-      ),
-    },
+    // {
+    //   key: "5",
+    //   label: (
+    //     <Link
+    //       to="/pricing"
+    //       className="ml-4 text-white hover:text-gray-300 cursor-pointer"
+    //     >
+    //       Pricing
+    //     </Link>
+    //   ),
+    // },
   ];
   return (
     <div className="bg-black flex py-3 px-4 justify-between items-center sticky top-0 z-50">
