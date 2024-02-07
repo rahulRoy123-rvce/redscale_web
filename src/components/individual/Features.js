@@ -1,12 +1,13 @@
 import React from "react";
 import FeatureCard from "../shared/FeatureCard";
 import { Carousel } from "antd";
+import YtVideo from "../shared/YtVideo";
 
 const Features = () => {
   return (
     <section id="features">
-      <h2 className="text-center text-4xl underline font-bold mt-10 mb-3 md:mb-5">
-        Features
+      <h2 className="text-center text-4xl font-bold mt-10 mb-3 md:mb-5">
+        Android Apps
       </h2>
 
       <div className="mx-auto mb-8">

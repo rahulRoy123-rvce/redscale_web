@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Banner from "../individual/Banner";
+import YtVideo from "../shared/YtVideo";
+import Features from "../individual/Features";
+// import Carousel from "../shared/Carousel";
+import FeatureCard from "../shared/FeatureCard";
+// import Carousel from "../shared/Carousel"
 
 const AboutUs = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -116,18 +121,61 @@ const AboutUs = () => {
         /> */}
 
       {/* </div> */}
-      <div className="relative">
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-200 to-blue-200">
-        <h2 class="text-4xl font-bold">The First slide</h2>
-        <p class="mt-2">Scroll Down for next slide</p>
+      <div className="mx-auto" >
+    <div className="sticky top-0 h-screen items-center justify-center">
+    <div className="mr-10 mb-8 overflow-x-hidden text-center font-bold text-3xl my-4">
+      Android Apps
+  {/* <Carousel
+    className="flex justify-center center mx-auto"
+    lazyLoad="ondemand"
+    rows={1}
+    slidesToShow={3}
+    slidesToScroll={0}
+    dots={false}
+    variableWidth={true}
+    responsive={[
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+        },
+      },
+    ]}
+  >
+    <FeatureCard
+      img="/images/Your_inventory.png"
+      content="Provides real-time inventory information"
+    />
+    <FeatureCard
+      img="/images/notification_feature.png"
+      content="Notifies you of food that is about to expire"
+    />
+    <FeatureCard
+      img="/images/Set_retailer_feature.png"
+      content="Set different retailers for different items"
+    />
+  </Carousel> */}
+</div>
+
     </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-800 to-purple-800 text-white">
-        <h2 class="text-4xl font-bold">The Second slide</h2>
-        <p class="mt-2">Scroll Down for next slide</p>
+    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-black text-white">
+        <h2 class="text-4xl font-bold">Web Apps</h2>
+      
+       
     </div>
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-pink-800 text-white">
-        <h2 class="text-4xl font-bold">The Third slide</h2>
-        <p class="mt-2">Scroll Down</p>
+        <h2 class="text-4xl font-bold">Social Media Managemnet and Strategy planning</h2>
+        
     </div>
     <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-200 to-indigo-100 text-black">
         <h2 class="text-4xl font-bold">The Fourth slide</h2>

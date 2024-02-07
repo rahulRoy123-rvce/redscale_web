@@ -78,17 +78,17 @@ function Footer() {
                 Find Us On
               </div>
 
-              <img
+              {/* <img
                 className="h-16 mb-3 mx-auto"
                 src="/images/whatsapp.png"
                 alt=""
-              />
+              /> */}
 
               <div
                 className="flex justify-center items-center
                pl-4 mt-2"
               >
-                <a
+                {/* <a
                   className="flex items-center mr-6 text-gray-300 text-sm no-underline hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -109,8 +109,8 @@ function Footer() {
                       d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165h29.825"
                     />
                   </svg>
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   className="flex items-center mr-6 text-gray-300 text-sm no-underline hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -131,12 +131,12 @@ function Footer() {
                       d="m102.421 128.06l66.328-38.418l-66.328-38.418z"
                     />
                   </svg>
-                </a>
+                </a> */}
                 <a
                   className="flex items-center mr-6 text-gray-300 text-sm no-underline hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/company/richfeyn/"
+                  href="https://www.linkedin.com/company/redscale/"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@ function Footer() {
                   className="flex items-center mr-6 text-gray-300 text-sm no-underline hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.instagram.com/richfeyn_official/"
+                  href="https://www.instagram.com/redscale.in/"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -213,7 +213,7 @@ function Footer() {
                     </g>
                   </svg>
                 </a>
-                <a
+                {/* <a
                   className="flex items-center mr-6 text-gray-300 text-sm no-underline hover:text-gray-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -234,13 +234,13 @@ function Footer() {
                       />
                     </g>
                   </svg>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
         </div>
         <div className="pt-6 mt-10 text-center text-gray-300 text-sm border-t border-gray-100">
-          © Copyright 2023 - Ubud Solutions (OPC) Private Limited. All rights
+          © Copyright 2024 - RedScale, All rights
           reserved.
         </div>
       </footer>

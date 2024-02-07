@@ -29,7 +29,7 @@ const PricingCard = ({ data, id }) => {
       
       id={id}
       title={data.months}
-      className="text-center text-lg w-full mx-5 max-w-sm shadow-xl "
+      className="text-center text-lg w-full mx-5 max-w-sm shadow-xl text-white"
     >
       {/* <p className="mb-2"> */}
         
@@ -40,7 +40,7 @@ const PricingCard = ({ data, id }) => {
         <Text className="mt-3 mx-auto text-2xl">{`${data.currency}`}</Text>
         <Text className="font-normal  text-6xl">{`${data.price}`}</Text>
         </div>
-        <Text className="font-medium text-gray-500 text-2xl">{`${data.quantity}`}</Text>
+        {/* <Text className="font-medium text-gray-500 text-2xl">{`${data.quantity}`}</Text> */}
         </div> 
         <Text className="font-bold text-xl">{`${data.pricePerMonth}`}</Text>
       {/* </p> */}
@@ -51,16 +51,16 @@ const PricingCard = ({ data, id }) => {
         <Text className="text-sm text-tcolor " >{data.jar}</Text>
       </p>
       <p className="tracking-wide mb-3 v-screen flex items-center justify-center ">
-        <Text className="text-sm text-tcolor ">{data.t1}</Text>
+        <Text className="text-lg font-semibold">{data.t1}</Text>
       </p>
       <p className=" tracking-wide mb-3 v-screen flex items-center justify-center ">
-        <Text className="text-sm text-tcolor">{data.t2}</Text>
+        <Text className="text-lg font-semibold">{data.t2}</Text>
       </p>
       <p className="tracking-wide mb-3 v-screen flex items-center justify-center ">
-        <Text className="text-sm text-tcolor ">{data.t3}</Text>
+        <Text className="text-lg font-semibold">{data.t3}</Text>
       </p>
       <p className="tracking-wide mb-3 v-screen flex items-center justify-center ">
-        <Text className="text-sm text-tcolor ">{data.t4}</Text>
+        <Text className="text-lg font-semibold">{data.t4}</Text>
       </p>
       <p className="tracking-wide mb-3 v-screen flex items-center justify-center">
         <Text className="text-sm text-tcolor ">{data.t5}</Text>
@@ -73,7 +73,7 @@ const PricingCard = ({ data, id }) => {
           <Button onClick={() => setShowPopUp(true)}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white bg-[#236d3b] rounded shadow-md fold-bold focus:outline-none"
+            className="cursor-pointer relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white bg-blue-500 rounded shadow-md fold-bold focus:outline-none"
             style={{
               outline: "none",
               color: "white",
@@ -81,7 +81,7 @@ const PricingCard = ({ data, id }) => {
               borderColor: "transparent",
             }}
           >
-            Pre order
+            Buy Plan
           </Button>
           <PopUp
             show={showPopUp}

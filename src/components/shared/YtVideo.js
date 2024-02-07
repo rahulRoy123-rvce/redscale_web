@@ -19,7 +19,7 @@ const YtVideo = () => {
   return (
     <div className="lg:mt-10 xl:mt-10 2xl:mt-10 lg:ml-10">
       <video width={width} height={(width / 16) * 9} controls autoPlay muted>
-        <source src="/Richfeyn_demo_video.mp4" type="video/mp4" />
+        <source src="/src/assets1/final_video_final.mp4" type="video/mp4" />
       </video>
     </div>
   );
